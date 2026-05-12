@@ -1,4 +1,4 @@
-MassTransit Kafka Outbox Demo (MS Aspire)
+## MassTransit Kafka Outbox Demo (MS Aspire)
 This repository demonstrates how to implement the Transactional Outbox Pattern using MassTransit 9.1+ and Kafka, orchestrated with .NET 10 and MS Aspire.
 
 The Outbox pattern ensures at-least-once delivery by saving your business data and your outgoing message in the same database transaction. A background worker then ensures the message is successfully published to Kafka.
@@ -32,12 +32,12 @@ Docker Desktop or Podman
 Visual Studio 2022 (Preview) or VS Code
 
 Running the Project
-Clone the repository:
+1. Clone the repository:
 ```
 git clone https://github.com/your-username/masstransit-kafka-outbox.git
 cd masstransit-kafka-outbox
 ```
-Run the Aspire AppHost:
+2. Run the Aspire AppHost:
 ```
 dotnet run --project src/MyProject.AppHost
 ```
