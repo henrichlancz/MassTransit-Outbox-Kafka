@@ -32,11 +32,15 @@ Docker Desktop or Podman
 Visual Studio 2022 (Preview) or VS Code
 
 Running the Project
-Clone the repository: git clone https://github.com/your-username/masstransit-kafka-outbox.git
+Clone the repository:
+```
+git clone https://github.com/your-username/masstransit-kafka-outbox.git
 cd masstransit-kafka-outbox
+```
 Run the Aspire AppHost:
+```
 dotnet run --project src/MyProject.AppHost
-    ```
+```
 3.  Open the **Aspire Dashboard** URL provided in the terminal to monitor logs and access the Kafka-UI or pgAdmin.
 
 ---
@@ -67,6 +71,7 @@ builder.Services.AddMassTransit(x =>
         });
     });
 });
+```
 
 📝 License
 Distributed under the MIT License. See LICENSE for more information.
