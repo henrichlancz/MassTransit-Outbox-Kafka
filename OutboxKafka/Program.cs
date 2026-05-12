@@ -40,9 +40,7 @@ builder.Services.AddMassTransit(x =>
         {
             Acks = Acks.All,
             MessageTimeoutMs = 5000,
-            RequestTimeoutMs = 5000,
-            ApiVersionRequest = true,
-            MessageSendMaxRetries = 0,
+            RequestTimeoutMs = 2000
         };
 
         rider.AddProducer<OrderCreated>(submittedTopic, producerConfig);
