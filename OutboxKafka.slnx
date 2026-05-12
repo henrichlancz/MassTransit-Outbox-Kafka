@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="OutboxKafka.AppHost/OutboxKafka.AppHost.csproj" />
+  <Project Path="OutboxKafka.ServiceDefaults/OutboxKafka.ServiceDefaults.csproj" />
+  <Project Path="OutboxKafka/OutboxKafka.csproj" />
+</Solution>
